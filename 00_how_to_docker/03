@@ -1,0 +1,3 @@
+docker-machine env Char
+# cat and run in shell directly 
+eval "$(docker-machine env Char)"

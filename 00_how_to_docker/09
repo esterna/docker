@@ -1,0 +1,4 @@
+# To test on dubian and then remove afterwards, same setup as alpine
+# docker run -it --rm debian /bin/sh
+apt-get update && apt-get -y upgrade
+apt-get install -y build-essential vim git

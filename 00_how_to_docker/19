@@ -1,0 +1,5 @@
+mkdir -p ~/root
+docker run -it --name Abathur -v ~/root:/root -p 3000:3000 python:2-slim bash
+pip install flask
+docker cp app.py Abathur:/
+docker exec Abathur python app.py

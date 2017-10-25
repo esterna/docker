@@ -1,0 +1,2 @@
+# 'exit' to exit container
+docker run -it --rm alpine /bin/sh

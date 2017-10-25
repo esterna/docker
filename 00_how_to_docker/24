@@ -1,0 +1,1 @@
+docker service create --name orbital-command --hostname orbit-commander --env RABBITMQ_DEFAULT_USER=Onea --env RABBITMQ_DEFAULT_PASS=42@SiliconValley --network overmind rabbitmq:3-management
